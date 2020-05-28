@@ -1,0 +1,125 @@
+body {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  padding: 5%;
+  color:  #202046;
+  color: hsl(240, 38%, 20%);
+}
+
+
+
+/********** Background Patterns**********/
+
+.pattern-bg {
+  width: 310px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  /* margin-left: 144px; */
+  margin-right: auto;
+}
+
+.pattern-quotes {
+  width: 10%;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+}
+
+.pattern-curve {
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/********** Carousel **********/
+.diaporama {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  /* padding: 2%; */
+}
+
+/********** Carousel Items **********/
+
+
+.picture{
+  width: 38%;
+  display: block;
+  margin: 0 auto 60px auto;
+  box-shadow: 0 25px 25px hsl(240, 38%, 20%, 0.2);
+}
+
+.story {
+  width: 45%;
+  margin: 15px auto 16px auto;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: .85rem;
+}
+
+.job {
+  font-weight: 500;
+  color: #BABACF;
+  color: hsl(240, 18%, 77%);
+  font-size: .85rem;
+}
+
+/********** Carousel Buttons **********/
+
+.grouped-btn {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.buttons {
+  position: absolute;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.left-arrow {
+  position: relative;
+  left: 20px;
+  width: 8px;
+  height: 12px;
+}
+
+.right-arrow {
+  position: relative;
+  right: 20px;
+  width: 8px;
+  height: 12px;
+}
+
+.anchor-prev {
+  padding-right: 32px;
+  right: 0;
+}
+
+.anchor-next {
+  padding-left: 32px;
+  left: 0;
+}
+
+/********** Footer **********/
+
+.attribution {
+visibility: hidden;
+}
+
+.attribution a {
+  color: 	#3e52a3;
+  color: hsl(228, 45%, 44%);
+}

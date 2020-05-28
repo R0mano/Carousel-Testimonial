@@ -1,0 +1,115 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.pattern-bg {
+  position: absolute;
+  right: 8%;
+  top: 0;
+  width: 45%;
+  height: auto;
+}
+
+.pattern-quotes {
+  position: absolute;
+  left: 20%;
+  top: 15%;
+}
+
+.pattern-curve {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+  /*****aka carousel******/
+.diaporama {
+  margin: 4% 5% 7px 5%;
+  min-width: 950px;
+}
+
+/**** d-flex-row-reverse ****/
+.item {
+  padding-bottom: 55px;
+}
+
+.picture {
+  width: 80%;
+  height: auto;
+  align-content: flex-start;
+  box-shadow: 0 25px 25px hsl(240, 38%, 20%, 0.2);
+}
+
+.story {
+  position: relative;
+  left: 110px;
+  font-size: 1.75rem;
+  font-weight: 300;
+  width: 90%;
+}
+
+.name {
+  position: relative;
+  left: 110px;
+  font-weight: 700;
+}
+
+.job {
+  position: relative;
+  left: 110px;
+  font-weight: 500;
+  color: #babac;
+  color:  hsl(240, 18%, 77%);
+  padding-left: 1rem;
+}
+
+.grouped-btn {
+  position: absolute;
+  bottom: 5.5%;
+  left: 55%;
+}
+
+.buttons {
+  position: absolute;
+  padding: 1.5rem;
+  border-radius: 50%
+}
+
+.left-arrow {
+  position: relative;
+  left: 20px;
+}
+
+.right-arrow {
+  position: relative;
+  right: 20px;
+}
+
+.anchor-prev {
+  padding-right: 32px;
+}
+
+.anchor-next {
+  padding-left: 32px;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  width: 262px;
+  margin-left: -131px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: 	#3e52a3;
+  color: hsl(228, 45%, 44%);
+}
+
+/* @@media query {
+
+} */
